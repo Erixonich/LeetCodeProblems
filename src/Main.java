@@ -4,17 +4,16 @@
 public class Main {
 
     public static void main(String args[]){
-        String s = "aabdjas";
-        System.out.println("length = " + s.length());
+        P2AddTwoNumbers ob = new P2AddTwoNumbers();
+        ListNode ex = null;
+        ListNode l1 = new ListNode(1);
+        //l1.next  = new ListNode(1);
+        //l1.next.next  = new ListNode(5);
+        //l1.next.next.next  = new ListNode(1);
 
-        //P5longestPalindrome ob = new P5longestPalindrome();
-        //System.out.print(ob.longestPalindrome(s));
-
-        StringBuffer s2 = new StringBuffer("Test");
-
-        //s2.append('a');
-        //s2.delete(0,s2.length());
-
-        //System.out.println(s2);
+        ListNode l2 = new ListNode(9);
+        l2.next  = new ListNode(9);
+        System.out.println(ob.getInt(ob.addTwoNumbers(l1,l2)));
+        //System.out.println(ob.getInt(ob.addNum(l2, 5)));
     }
 }
