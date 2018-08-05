@@ -1,11 +1,11 @@
-/**
- * Created by Erixon on 05.01.2017.
- */
+import p11.Solution;
+
 public class Main {
 
     public static void main(String args[]){
-        P66PlusOne ob = new P66PlusOne();
-        //ob.plusOne();
+        Solution ob = new Solution();
 
+        int[] arr = {1,1};
+        System.out.println(ob.maxArea(arr));
     }
 }
